@@ -1,14 +1,14 @@
 # Security Policies and Procedures
 
-This document outlines security procedures and general policies for the `Terrascan-action` project.
+This document outlines security procedures and general policies for the `Terrasec-action` project.
 
   * [Contributing](../CONTRIBUTING.md)
 
 ## Reporting an Issue
 
-The `Terrascan` team and community take all security issues in `Terrascan-action` seriously.
+The `Terrascan` team and community take all security issues in `Terrasec-action` seriously.
 
-Thank you for improving the security of `Terrascan-action`. We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
+Thank you for improving the security of `Terrasec-action`. We appreciate your efforts and responsible disclosure and will make every effort to acknowledge your contributions.
 
 Report security bugs by emailing the team at vulnreport@khulnasoft.com.
 

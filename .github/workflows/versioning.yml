@@ -1,4 +1,4 @@
-name: Keeps terrascan-action versions up-to-date
+name: Keeps terrasec-action versions up-to-date
 
 on:
   release:
