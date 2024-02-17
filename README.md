@@ -1,5 +1,5 @@
 # Terrascan GitHub Action
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=khulnasoft_terrascan-action&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=khulnasoft_terrascan-action)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=khulnasoft_terrasec-action&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=khulnasoft_terrasec-action)
 
 This action runs Terrascan, the infrastructure as code (IaC) scanner for security best practices. It supports displaying the results of the scan in the GitHub repository's Security tab under [code scanning alerts](https://docs.github.com/en/code-security/secure-coding/automatically-scanning-your-code-for-vulnerabilities-and-errors/about-code-scanning), when the `sarif_upload` input variable is included.
 
@@ -62,7 +62,7 @@ on: [push]
 jobs:
   terrascan_job:
     runs-on: ubuntu-latest
-    name: terrascan-action
+    name: terrasec-action
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -99,7 +99,7 @@ on: [push]
 jobs:
   terrascan_job:
     runs-on: ubuntu-latest
-    name: terrascan-action
+    name: terrasec-action
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
