@@ -1,4 +1,4 @@
-name: 'Terrascan IaC scanner'
+name: 'Terrasec IaC scanner'
 description: 'Uses Terrascan to detect security violations on Terraform/CloudFormation/k8s/Helm/Kustomize files'
 inputs:
   iac_dir:
