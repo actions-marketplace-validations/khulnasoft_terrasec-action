@@ -1,5 +1,5 @@
-name: 'Terrasec IaC scanner'
-description: 'Uses Terrasec to detect security violations on Terraform/CloudFormation/k8s/Helm/Kustomize files'
+name: 'Terrascan IaC scanner'
+description: 'Uses Terrascan to detect security violations on Terraform/CloudFormation/k8s/Helm/Kustomize files'
 inputs:
   iac_dir:
     description: 'path to a directory containing one or more IaC files (default ".")'
@@ -30,7 +30,7 @@ inputs:
     description: 'the action will only warn and not error when violations are found'
     required: false
   sarif_upload:
-    description: 'if true a sarif file named Terrasec.sarif will be generated with the results of the scan'
+    description: 'if true a sarif file named terrascan.sarif will be generated with the results of the scan'
     required: false
   verbose:
     description: 'will show violations with additional details (applicable for default output)'

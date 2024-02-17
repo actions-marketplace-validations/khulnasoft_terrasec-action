@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 # Displaying options
-echo "Running Terrasec GitHub Action with the following options:"
+echo "Running Terrascan GitHub Action with the following options:"
 echo "INPUT_IAC_DIR=${INPUT_IAC_DIR}"
 echo "INPUT_IAC_TYPE=${INPUT_IAC_TYPE}"
 echo "INPUT_IAC_VERSION=${INPUT_IAC_VERSION}"
